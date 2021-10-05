@@ -15,7 +15,7 @@ export class PrintService {
     var HTML_Height = DATA.getBoundingClientRect().height;
     var top_left_margin = 15;
     var PDF_Width = HTML_Width + top_left_margin * 2;
-    var PDF_Height = PDF_Width * 1.5 + top_left_margin * 2;
+    var PDF_Height = PDF_Width * 1.4 + top_left_margin * 2;
     var canvas_image_width = HTML_Width;
     var canvas_image_height = HTML_Height;
 
